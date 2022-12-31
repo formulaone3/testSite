@@ -6,10 +6,9 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: red;
     padding: 30px 20px;
     align-items: center;
-
+    background-color: lightsteelblue;
 }
 
 .container {
@@ -68,13 +67,17 @@ body {
     padding: 20px 50px;
     font-weight: bolder;
     color: black;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 20%;
 }
 
 .contact-btn:hover {
     background-color: grey;
 }
 
-.contact-btn-div {
+-.contact-btn-div {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
