@@ -1,0 +1,106 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightsteelblue;
+    padding: 30px 20px;
+    align-items: center;
+
+}
+
+.container {
+    padding: 30px 10px;
+    margin: 0 auto;
+    width: 85%;
+}
+
+.heading {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-left: 55px;
+}
+
+.nav {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+}
+
+.nav-item:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.about-me {
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-me-info {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    
+}
+
+.dog {
+    background: lightsteelblue;
+}
+
+.about-pic img {
+    max-width: 350px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.contact-btn {
+    text-decoration: none;
+    background: 20px gold;
+    border-radius: 10px;
+    padding: 20px 50px;
+    font-weight: bolder;
+    color: black;
+}
+
+.contact-btn:hover {
+    background-color: grey;
+}
+
+.contact-btn-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+.dog-footer, .cat-header {
+    height: 100vh;
+}
+
+footer {
+    text-align: center;
+}
+
+.dog-section {
+    background: lightsteelblue;
+    height: 85vh;
+}
+
+.dog-section .contact-btn {
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.dog-section .contact-btn-div {
+    padding: 30px;
+}
