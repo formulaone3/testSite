@@ -35,6 +35,12 @@ body {
     cursor: pointer;
 }
 
+.nav-item {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
 .about-me {
     display: flex;
     gap: 40px;
