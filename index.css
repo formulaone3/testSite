@@ -77,13 +77,6 @@ body {
     background-color: grey;
 }
 
--.contact-btn-div {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-    text-align: center;
-    
-}
 
 .dog-footer, .cat-header {
     height: 100vh;
